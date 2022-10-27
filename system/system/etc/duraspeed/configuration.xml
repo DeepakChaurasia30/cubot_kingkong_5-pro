@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <PowerConsumptionCleaning>false</PowerConsumptionCleaning>
+    <PolicyLevel>3</PolicyLevel>
+    <CpuThreshold>70</CpuThreshold>
+    <FreeThreshold>1258291</FreeThreshold>
+    <CpuTarget>60</CpuTarget>
+    <!--Start: configure the white list APPS-->
+    <PlatformWhitelist>
+        <App1>com.tencent.mm</App1>
+        <App2>com.tencent.mobileqq</App2>
+        <App3>com.google.android.gm</App3>
+        <App4>com.whatsapp</App4>
+        <App5>com.instagram.android</App5>
+        <App6>com.twitter.android</App6>
+        <App7>com.yc.gloryfit</App7>
+        <App8>com.veepoo.hband</App8>
+        <App9>com.facebook.lite</App9>
+        <App10>com.veryfit2hr.second</App10>
+        <App11>com.facebook.katana</App11>
+        <App12>com.alibaba.android.rimet</App12>
+        <App13>com.snapchat.android</App13>
+        <App14>com.viber.voip</App14>
+        <App15>com.skyroam.silverhelper</App15>
+        <App16>com.skype.raider</App16>
+        <App17>com.android.vending</App17>
+        <App18>com.google.android.dialer</App18>
+		<App19>com.google.android.apps.messaging</App19>
+    </PlatformWhitelist>
+    <!--End: configure the white list APPS-->
+</configuration>

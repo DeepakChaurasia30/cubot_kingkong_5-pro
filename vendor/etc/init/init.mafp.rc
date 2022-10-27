@@ -1,0 +1,7 @@
+on init
+    chmod 0666 /dev/madev0
+    chown system system /dev/madev0
+#IF NEED MA_FINGERPRINT
+on post-fs-data
+    mkdir /data/system/ma_fingerprint 0777 system system
+

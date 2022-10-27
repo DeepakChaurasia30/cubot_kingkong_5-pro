@@ -1,0 +1,7 @@
+service vendor.mafp_hal /vendor/bin/hw/vendor.microarray.mafp@1.0-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class hal
+    user system
+    group system 
